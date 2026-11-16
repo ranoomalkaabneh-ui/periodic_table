@@ -27,3 +27,4 @@ else
   IFS='|' read NUM NAME SYMBOL TYPE MASS MELT BOIL <<< "$RESULT"
   echo "The element with atomic number $NUM is $NAME ($SYMBOL). It's a $TYPE, with a mass of $MASS amu. $NAME has a melting point of $MELT celsius and a boiling point of $BOIL celsius."
 fi# Periodic table element lookup script
+# Usage: ./element.sh <atomic_number|symbol|name>
